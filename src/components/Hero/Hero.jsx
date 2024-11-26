@@ -69,9 +69,13 @@ const HeroSection = () => {
             instantaneously (no tedeous form, long calls, <br />
             or administrative hassle) and securely
           </p>
-          <button className="flex items-center px-6 py-2 bg-white text-blue-500 border border-solid border-blue-500 font-semibold rounded-3xl shadow-md hover:bg-blue-500 hover:text-white transition">
+          <button className="group flex items-center px-6 py-2 bg-white text-blue-500 border border-solid border-blue-500 font-semibold rounded-3xl shadow-md hover:bg-blue-500 hover:text-white transition">
             <span className="mr-2">Download</span>
-            <img src={bottomIcon} alt="Doctor" className="max-w-full h-auto" />
+            <img
+              src={bottomIcon}
+              alt="Doctor"
+              className="max-w-full h-auto transition group-hover:filter group-hover:invert"
+            />
           </button>
         </div>
 
@@ -98,8 +102,8 @@ const HeroSection = () => {
             Find a Doctor near you
           </h1>
           <p className="text-gray-400 mb-6">
-            Our app and web portal allows you to find the <br />doctor to your nearest
-            location.
+            Our app and web portal allows you to find the <br />
+            doctor to your nearest location.
           </p>
           <button className="px-8 py-2 bg-white text-blue-500 border border-solid border-blue-500 font-semibold rounded-3xl shadow-md hover:bg-blue-500 hover:text-white transition">
             Find now
