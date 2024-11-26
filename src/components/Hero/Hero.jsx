@@ -12,13 +12,13 @@ const HeroSection = () => {
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa.
         </p>
-        <button className="bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition">
+        <button className="bg-blue-500 text-white px-6 py-3 rounded-3xl text-lg font-medium hover:bg-blue-700 transition">
           Consult today
         </button>
       </div>
 
       <div className="flex-1 flex items-center justify-center">
-        <div className="border-4 border-yellow-300 rounded-lg p-4">
+        <div className="">
           <img
             src={doctorImage}
             alt="Doctor"

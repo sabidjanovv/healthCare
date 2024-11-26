@@ -4,10 +4,10 @@ import Group from "../../assets/Group.svg";
 const Header = () => {
   return (
     <div className="max-w-screen-xl mx-auto px-5">
-      <nav className="bg-white border-2 border-red-200 pt-3 mt-2 text-xl">
+      <nav className="bg-white border-2 border-gray-100 pt-3 mt-2 text-xl">
         <div className="flex flex-wrap items-center justify-between p-4">
           <a
-            href="https://www.saviourhomecare.com/"
+            href="https://saviorcarehomehealth.com/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img src={Group} className="h-8" alt="Flowbite Logo" />
