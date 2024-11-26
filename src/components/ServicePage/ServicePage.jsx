@@ -3,7 +3,7 @@ import Card from "./Card/Card.jsx";
 
 const ServicesPage = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-5">
+    <div className="max-w-screen-xl mx-auto px-5 mb-36">
       <div className="bg-gray-50 py-16">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-4">
           Services we Offer
